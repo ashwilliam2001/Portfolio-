@@ -36,14 +36,14 @@ const projectsData = [
     },
     {
         id: 4,
-        title: "Food Ordering Application",
+        title: "Image Steganography",
         description: "Project 4 description",
         image: "/images/projects/4.png",
         tag: ["All", "Mobile"],
         gitUrl: "/",
         previewUrl: "/",
     },
-    {
+   /* {
         id: 5,
         title: "React Firebase Template",
         description: "Authentication and CRUD operations",
@@ -51,7 +51,7 @@ const projectsData = [
         tag: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/",
-    },
+    },*/
    /* {
         id: 6,
         title: "Full-stack Roadmap",
