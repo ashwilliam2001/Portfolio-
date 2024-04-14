@@ -4,6 +4,7 @@ import GithubIcon from "../../public/github-icon.svg";
 import LinkedinIcon from "../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
+import { PhoneIcon } from "@heroicons/react/24/solid";
 
 const EmailSection = () => {
     const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -62,6 +63,10 @@ const EmailSection = () => {
                     <Link href="linkedin.com">
                         <Image src={LinkedinIcon} alt="Linkedin Icon" />
                     </Link>
+                    <div className="flex items-center gap-2">
+                        <PhoneIcon className="h-9 w-9" />
+                        <span className="text-white">+91-8145895594</span>
+                    </div>
                 </div>
             </div>
             <div>

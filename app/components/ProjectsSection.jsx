@@ -3,7 +3,7 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
-
+import "./projects.css";
 const projectsData = [
     {
         id: 1,
@@ -22,14 +22,16 @@ const projectsData = [
         tag: ["All", "Web"],
         gitUrl: "https://github.com/ashwilliam2001/Lens-Artistry.git",
         previewUrl: "https://ashwilliam2001.github.io/Lens-Artistry/index.html",
+        display: "flex", 
+        justifyContent: "center"
     },
     {
         id: 3,
-        title: "E-commerce Application",
+        title: "Online Examination System",
         description: "Project 3 description",
-        image: "/images/projects/3.png",
+        image: "/images/projects/3.jpg",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/ashwilliam2001/Online_Examination_System.git",
         previewUrl: "/",
     },
     {
@@ -50,7 +52,7 @@ const projectsData = [
         gitUrl: "/",
         previewUrl: "/",
     },
-    {
+   /* {
         id: 6,
         title: "Full-stack Roadmap",
         description: "Project 5 description",
@@ -58,7 +60,7 @@ const projectsData = [
         tag: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/",
-    },
+    },*/
 ];
 
 const ProjectsSection = () => {
